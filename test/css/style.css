@@ -1,0 +1,111 @@
+body {
+	font-size: 16px;
+	margin: 2em;
+}
+
+
+
+
+h1, h2, q, dt {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+
+
+h1 {
+	font-size: 8em;
+	line-height: 1em;
+}
+
+
+h2 {
+	font-size: 2em;
+	line-height: 1em;
+}
+
+
+p, dl {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+
+q {
+	font-size: 6em;
+	line-height: 1em;
+}
+
+nav a  { 
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: .8em;
+	line-height: 1em;
+ }
+
+ dt {font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 4em;
+	line-height: 1em;
+}
+	
+dd{
+	margin: 0;
+	padding: 1em 0;
+
+}
+
+header, footer, q, .video {
+	text-align: center;
+}
+
+#video {
+	width: 100%;
+
+}
+
+.lead  { 
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1em;
+ }
+
+ 
+.bg-image {
+    position: relative;
+}
+
+.bg-image img {
+    display: block;
+    width: 100%;
+    max-width: 1200px; /* corresponds to max height of 450px */
+    margin: 0 auto;
+}
+
+.bg-image q {
+    position: absolute;
+    top:30%;
+    left: 0;
+    right: 0;
+    color: #FBB9E9;
+}
+
+
+
+
+/*
+section #final-quote {
+	background-image: #a7cece url(/images/eddiepalmieri_collage.jpg);
+	background-size: cover;
+	height: 500px;
+}
+*/
