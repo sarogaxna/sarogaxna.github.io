@@ -3,9 +3,12 @@
 body {
 	font-size: 16px;
 	margin: 2em;
+
 }
 
-
+img {
+	width:100%;
+}
 
 
 h1, h2, q, .list-heading {
@@ -13,24 +16,34 @@ h1, h2, q, .list-heading {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: -0.02em;
+	overflow:hidden;
 }
 
-
+h3, p {font-family: 'Montserrat', sans-serif;}
 
 h1 {
 	font-size: 10em;
 	line-height: 1em;
 	color: white;
+	z-index:10;
 }
 
 h2 {
 	font-size: 2em;
 	line-height: 1em;
+	margin: 0px !important;
 }
 
+h3 { 
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: 700;
+	font-size: .75em;
+	line-height: 1em;
+ }
 
-p, dl {
-	font-family: 'Montserrat', sans-serif;
+
+p  {
 	font-weight: 300;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -51,7 +64,17 @@ nav a  {
 	line-height: 1em;
  }
 
- ul { list-style-type: none;
+ a {color:#FF5B32;}
+
+
+section h1 {
+	padding-left:40px;
+	padding-top:100px;
+ 	margin: 0px;}
+}
+ 
+
+ul { list-style-type: none;
 }
 	
 li {
@@ -68,14 +91,7 @@ footer {background-color: #141253;}
 
 
 
-.lead  { 
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	font-weight: 400;
-	font-size: 1em;
-	line-height: 1em;
- }
+
 
  
 .bg-image {
@@ -102,15 +118,15 @@ footer {background-color: #141253;}
 }
 
 #left {
-    padding: 20px;
+    padding: 2%;
     float: left;
-    width: 30%;
+    width: 46%;
 }
 
 #right {
-    padding: 20px;
+    padding: 2%;
     float: right;   
-    width: 62%;
+    width: 46%;
 }
 
 .clearfix:after {
@@ -149,24 +165,49 @@ footer {background-color: #141253;}
     color:#FBB9E9;
 	font-size: 10em;
 	line-height: 1em;
+	padding-left:40px;
 }
 
 .hero h2 {
     /* Text styles */
     font-size: 2em;
     color:#FF5B32;
+    padding-left:40px;
 }
 
 .hero p {
     /* Text styles */
     color: white;
+    padding-left:40px;
+    width:350px;
   
 }
 
 
 #elmolestoso {background-color: #905624;}
-#justicia {background-color: #CFD3F2;}
-#puertorico {background-color: #FF5B32;}
+#elmolestoso p, h2, h3 {
+	color:white;
+}
+#justicia {background-color: #CFD3F2;
+}
+#overlap {
+	transform:translateY(200px);
+	z-index:-1;
+	width:800px;
+	float:right;
+
+
+} 
+
+#justicia .video {
+	transform:translateY(100px);
+	z-index:1;
+} 
+#puertorico {background-color: #FF5B32;
+color:white;}
+
+#puertorico a {color:white;}
+
 #concerts {background-color: #FBB9E9;}
 
 li.list-heading {
