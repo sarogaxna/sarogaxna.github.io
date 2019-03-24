@@ -1,0 +1,513 @@
+/* Main*/
+
+body {
+	font-size: 16px;
+	margin: 2em;
+
+}
+img {
+	width: 100%;
+}
+
+/* Type */
+
+h1, h2, q, .list-heading {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	overflow:hidden;
+}
+
+h3, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 8em;
+	line-height: 1em;
+	color: white;
+	z-index: 10;
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 1em;
+	margin: 0px !important;
+}
+
+h3 { 
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: 500;
+	font-size: .75em;
+	line-height: 1em;
+	padding-bottom:.75em;
+	margin: 0px !important;
+ }
+
+p  {
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+q {
+	font-size: 6em;
+	line-height: 1em;
+}
+
+a {
+ 	color: #FF5B32;
+ }
+
+section h1 {
+	padding: 0.75em 0 0 .25em;
+ 	margin: 0px;}
+}
+
+ul { 
+	list-style-type: none;
+}	
+
+li {
+	margin: 0;
+	padding: 1em 0;
+
+}
+
+header, q, .video {
+	text-align: center;
+}
+
+
+/* Columns & Clearfix */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.two-column{
+	padding:0px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/* Hero */
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    /* Text styles */
+    text-align: left;
+    
+
+     /* Background styles */
+    background-image: url('../images/eddie_hero@2x.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    color: #FBB9E9;
+	font-size: 11em;
+	line-height: 1em;
+	padding-left:.25em;
+	padding-top: .1em !important;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #FF5B32;
+    padding-left: 1.5em;
+}
+
+.hero p {
+    color: white;
+    padding-left: 2.25em;
+    width: 30%;
+}
+
+/* El Molestoso - Section 1 */
+
+#elmolestoso {
+	background-color: #2E6261;
+	position: relative;
+}
+
+#elmolestoso a {
+	font-weight:500;
+}
+
+#elmolestoso p, h2, h3 {
+	color: white;
+}
+
+#elmolestoso h1 {
+	z-index: 10;
+	position: absolute;
+	margin-top: 50px;
+}
+
+#molestoso{
+    float: left;
+    padding: 35em 2em 0 2em;
+}
+
+#molestoso-img{
+	float: right;
+	padding-top: 20em;
+}
+
+#nuevosonido-img{
+	float: left;
+	padding: 5em 2em 15em 2em;
+}
+
+#nuevosonido{
+    float: right;
+    padding: 15em 4em 0 2em ;
+}
+
+/* Justicia - Section 2 */
+
+#justicia {
+	background-color: #CFD3F2;
+	position: relative;
+}
+
+#justicia-img {
+	transform: translateY(-6em);
+	z-index: -1;
+	width: 42em;
+	float: right;
+} 
+
+.harlem-wrapper{
+	padding-top: 5em;
+}
+
+#justicia h1 {
+	position: absolute;
+	margin-top: .5em;
+}
+
+#justicia a {
+	font-weight: 500;
+}
+
+#harlem-img{
+	float: left;
+    padding:5em 2em 30em 4em;
+}
+
+#harlem {
+	float: right;
+	padding: 8em 4em 0 0;
+}
+
+/* Puerto Rico - Section 3 */
+
+.video {
+	transform: translateY(-21em);
+	z-index: 1;
+} 
+
+#puertorico {
+	background-color: #FF5B32;
+	color: white;
+	position: relative;
+}
+
+#puertorico a {
+	color: white;
+	font-weight: 500;
+}
+
+#puertorico h1 {
+	position: absolute;
+	z-index: 10;
+	margin-top: -4em;
+}
+
+#puerto-wrapper {
+	margin-top:-12em;
+	padding:0 2em;
+}
+
+#puerto {
+	float:right;
+	padding: 4em 4em 0 0;
+}
+
+#puerto img {
+	float:left;
+	padding:0 2em 0 4em;
+}
+
+#sabiduria {
+	float:left;
+	padding: 10em 2em 0 4em;
+}
+
+#sabiduria-img {
+	float: right;
+	padding: 5em 0;
+	
+}
+
+
+/* Collage - Section 4 */
+
+.bg-image {
+    position: relative;
+    background-color: #141253;
+}
+
+.bg-image img {
+    display: block;
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.bg-image q {
+    position: absolute;
+    top:2em;
+    left: 1em;
+    right: 1em;
+    color: white;
+}
+
+.bg-image p {
+	margin: 0px !important;
+}
+
+/* Concerts - Section 5 */
+
+
+#concerts {
+	background-color: #FBB9E9;
+	padding: 0 2em 6em 2em;
+}
+
+#concert-list {
+	padding-left:4em;
+	margin-top: -10em;
+}
+
+#concerts h2 {
+	writing-mode: vertical-lr;
+	transform: rotateZ(-180deg);
+	padding-bottom: 80px !important;
+}
+
+#concerts li {
+	list-style: none;
+}
+
+li.list-heading {
+	font-size:4em;
+	margin:0px;
+	padding:0px;
+	color: black;
+}
+
+li.list-heading a{
+	color: black;
+	text-decoration: none;
+}
+
+li.list-heading a:hover{
+	color: white;
+}
+
+li.list-description {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: black;
+	margin-top:-1em;
+}
+
+/* Footer */
+
+footer img {
+	transform: translateY(-4em);
+	z-index: 1;
+}
+footer {
+	background-color: #0E0753;
+	padding-bottom: 2em;
+}
+
+footer h1 {
+	padding-left: .5em;
+	transform: translateY(-2em);
+	z-index: 10;
+}
+
+
+
+/* Responsive Media Queries */
+
+
+@media only screen and (max-width: 960px) {
+  	
+
+.hero h1 {
+	font-size: 9em;
+}
+.hero h2 {
+    font-size: 2em;
+    color: #FF5B32;
+    padding-left: 1.5em;
+}
+
+#molestoso{
+    float: left;
+    padding-top: 26em;
+}
+
+#elmolestoso h1 {
+	margin-top: .3em;
+}
+
+#molestoso-img{
+	float: right;
+	padding-top: 20em;
+}
+
+#elmolestoso .col-7 {
+	width:50% !important;
+}
+
+#nuevosonido-img{
+	float: left;
+	padding: 5em 0 12em 0;
+}
+
+#nuevosonido{
+    float: right;
+    padding-top: 8em; 
+}
+
+#justicia h1 {
+	position: absolute;
+	margin-top: .75em;
+}
+
+#harlem {
+	float: right;
+	padding: 5em 4em 0 0;
+}
+
+#puertorico h1 {
+	margin-top: -4.3em;
+}
+
+#puerto {
+	float:right;
+	padding: 0em 4em 0 0;
+}
+
+#sabiduria {
+	float:left;
+	padding: 5em 2em 0 4em;
+}
+
+.bg-image q {
+    font-size: 4em;
+    top:2.5em;
+}
+
+#concert-list {
+	padding-left:2em;
+	font-size:.75em;
+	margin-top: -12.5em;
+}
+
+#harlem-img{
+	float: left;
+    padding:5em 2em 26em 4em;
+}
+
+h1 {
+	font-size: 7em;
+}
+
+
+p  {
+	font-weight: 300;
+	font-size: .9em;
+	line-height: 1.5em;
+}
+  }
+
+  @media only screen and (max-width: 680px) {
+
+h1 {
+	font-size: 6em;
+}
+
+.hero h1 {
+	font-size: 8em;
+}
+
+#molestoso{
+    float: none;
+    display: block;
+}
+
+#molestoso-img{
+	float: none;
+	display: block;
+}
+
+#nuevosonido-img{
+	float: none;
+	display: block;
+}
+
+#nuevosonido{
+    float: none;
+    display: block;
+}
+
+/*.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 .col-12 {
+	width: 100%;
+}*/
+
+
+  }
+
+
+
+
+
